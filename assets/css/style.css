@@ -186,9 +186,14 @@ section {
 
 .header .logo img {
   max-height: 80px;
-  margin-left: -50px;
+  margin-left: 50px;
 }
-
+@media screen and  (min-width: 1200px) {
+  /* For mobile phones: */
+  .header .logo img {
+    margin-left: -50px;
+  }
+}
 .header .logo span {
   font-size: 30px;
   font-weight: 700;
@@ -496,12 +501,42 @@ section {
   font-size: 46px;
   font-weight: 600;
   position: relative;
+  text-shadow: 2px 2px 5px rgba(34,34,37,0.55);
   
 }
 .hero .info h2 span {
   color: orange;
-  
+  text-shadow: 2px 2px 5px rgba(34,34,37,0.55);
+  margin: 10px;
 }
+.hero .btn {
+ padding: 1.3em 3em;
+ margin: -50px 10px;
+ font-size: 12px;
+ text-transform: uppercase;
+ letter-spacing: 2.5px;
+ font-weight: 500;
+ color: #ffffff;
+ background-color: rgba(247, 163, 7, 0.697);
+ border: none;
+ border-radius: 45px;
+ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+ transition: all 0.3s ease 0s;
+ cursor: pointer;
+ outline: none;
+}
+
+.hero .btn:hover {
+ background-color: #4f5ee7b4;
+ box-shadow: 0px 15px 20px rgba(52, 46, 229, 0.4);
+ color: #fff;
+ transform: translateY(-5px);
+}
+
+.hero .btn:active {
+ transform: translateY(-1px);
+}
+
 
 .hero .info h2:after {
   content: "";
