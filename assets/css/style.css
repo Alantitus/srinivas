@@ -179,14 +179,20 @@ section {
 .header.header-scrolled a 
 {
   color: #4154f1;
+  
 }
+ .header.header-scrolled .getstarted {
+  color:#fff;
+ }
 .header.header-scrolled .logo span{
   color:#4154f1;
 }
 
 .header .logo img {
+  height: auto;
+  width: auto;
   max-height: 80px;
-  margin-left: -50px;
+  /* margin-left: -50px; */
 }
 
 .header .logo span {
@@ -257,6 +263,7 @@ section {
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
+  
 
 }
 
