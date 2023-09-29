@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "poppins", sans-serif;
   color: #444444;
 }
 
@@ -19,15 +19,6 @@ a {
 a:hover {
   color: #717ff5;
   text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Roboto", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -2558,7 +2549,7 @@ position: relative;
 width: 100%;
 height: 50vh;
 object-fit:cover;
-   object-position:50% 50%;
+ object-position:50% 50%;
 }
 #banner .AboutHead{
   position: absolute;
@@ -2593,7 +2584,7 @@ padding-bottom: 20px;
 #section-02 .aboutContent .aboutDivide01 h6{
   font-family: "poppins", sans-serif;
   font-weight: 300;
-  color: #1d1c1c;
+  color: #1d1c1c;line-height: 30px;
 }
 #section-02 .aboutContent .aboutDivide02 img{
  width: 36rem;
@@ -2609,7 +2600,7 @@ padding-bottom: 20px;
 /* Chancellor--section */
 .chancellor-img{
   width: 340px;
-  height: 55vh;
+  max-height: 50vh;
   padding-right: 20px;
 }
 .chancellor-img img{
@@ -2652,7 +2643,8 @@ color: rgb(18, 18, 68);
       padding-bottom: 20px;
     }
     .chancellor-img{
-      width: 550px;
+     width: 470px;
+     height: 40vh;
       margin-left: 20px;
       padding-bottom: 25px;
     }
@@ -2696,3 +2688,264 @@ color: rgb(18, 18, 68);
 
 }
     }
+
+    /* ICIS section */
+
+   #banner .bannerDetails{
+    position: absolute;
+    top: 16rem;
+    left: 30px;
+
+   }
+   #banner .bannerDetails h6{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+
+   }  
+   #banner .bannerDetails h3{
+    font-size: 20px;
+    font-weight: 600;
+   }
+   #banner .bannerDetails span{
+    width: 100px;
+    height: 16px;
+    background-color: rgb(18, 18, 68);
+    position: absolute;
+    right: 0;
+   }
+   #banner .bannerDetails h5{
+    font-size: 15px;
+    font-weight: 400;
+   }
+   #icisDetails{
+    padding-bottom: 0;
+   }
+   #icisDetails .icis-fa h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(18, 18, 68);
+    font-family: "poppins", sans-serif;
+    margin-bottom: 20px;
+    }
+  #icisDetails .icis-fa p{
+      font-weight: 400;
+      font-family: "poppins", sans-serif;
+      color: rgb(18, 18, 68);
+      line-height: 27px;
+  }
+  #icisCampus{
+    padding-bottom: 0
+  }
+  #icisCampus .adjust{
+    overflow:hidden ;
+  }
+  #icisCampus .icis-col01{
+    overflow: hidden;
+  }
+  #icisCampus .icis-col01 img{
+   width: 100%;
+   overflow: hidden;
+   height: 70vh;
+   object-position:50% 70%;
+   object-fit:cover;
+   border-radius: 8px;
+  }
+  #icisCampus .card01{
+    margin-left: 20px;
+    width: 22rem;
+  }
+  #icisCampus .card01 li{
+    height: 70px;
+  }
+  #icisCampus .card01 li a{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+  }
+  #icisCampus .card01 li a:hover{
+    color: rgb(18, 18, 68);
+    font-weight: 600;
+  }
+ .highlighted{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(6, 6, 63);
+  }
+ #Programs h1{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(18, 18, 68);
+  font-family: "poppins", sans-serif;
+  padding-bottom:1.7em ;
+ }
+ #Programs .card02{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+ }
+ #Programs .card02 li{
+  height: 50px;
+ }
+
+ /* //////Course Section ////// */
+ .ciscourse{
+  margin-bottom: 10px;
+ }
+ .ciscourse .accordion {
+  background-color: #fff;
+  color: rgb(18, 18, 68);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.ciscourse .accordion:hover{
+  background-color: rgb(18, 18, 68);
+  color: #fff;
+}
+.ciscourse .accordion .coursesName{
+  color: #111;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 42.6rem;
+  transition: 2s;
+}
+.ciscourse .accordion .padding03 {
+  padding-right: 36rem;
+}
+.ciscourse .accordion .padding04 {
+  padding-right: 36.2rem;
+}
+.ciscourse .accordion .padding05 {
+  padding-right: 34rem;
+}
+.ciscourse .accordion .padding06 {
+  padding-right: 49.6rem;
+}
+.ciscourse .accordion .padding07 {
+  padding-right: 51rem;
+}
+.ciscourse .accordion .padding08 {
+  padding-right: 53rem;
+}
+.ciscourse .accordion .padding09 {
+  padding-right: 44.3rem;
+}
+.ciscourse .accordion .coursesName:hover{
+  color: #E7B700;
+}
+#Programs .card-body{
+    padding: 1.8rem 2rem;
+    background-color: rgb(228, 228, 228);
+}
+#Programs .card-body h4{
+  color: rgb(18, 18, 68) ;
+  font-weight: 600;
+  margin-left: 4px;
+  margin-bottom: 15px;
+  padding-top: 10PX;
+}
+@media (max-width:799px){
+  #banner div img {
+    object-position: 50% 0%;
+}
+#icisDetails .icis-fa h1 {
+  font-size: 33px;
+}
+#icisCampus .icis-col01 img {
+  height: 40vh;
+}
+#icisCampus .card01 {
+  margin-top: 40px;
+  width: 100%;
+}
+.ciscourse .accordion .coursesName {
+  padding-right: 16.5rem;
+}
+.ciscourse .accordion .padding03 {
+  padding-right: 9.5rem;
+}
+.ciscourse .accordion .padding04 {
+  padding-right: 9.7rem;
+}
+.ciscourse .accordion .padding05 {
+  padding-right: 7.5rem;
+}
+.ciscourse .accordion .padding06 {
+  padding-right: 23.5rem;
+}
+.ciscourse .accordion .padding07 {
+  padding-right: 24.8rem;
+}
+.ciscourse .accordion .padding08 {
+  padding-right: 27rem;
+}
+.ciscourse .accordion .padding09 {
+  padding-right: 18.4rem;
+}
+}
+@media(max-width:477px){
+  #banner .bannerDetails {
+    top: 11rem;
+    width: 23rem;
+    left: 20px;
+}
+#banner div img {
+  height: 25vh;
+  object-position: 50% 0%;
+}
+#banner .bannerDetails h6 {
+  font-size: 30px;
+}
+#banner .bannerDetails h3 {
+  font-size: 16px;
+}
+#banner .bannerDetails h5 {
+  font-size: 13px;
+}
+#banner .bannerDetails span {
+display: none;
+}
+#icisDetails {
+  padding-top: 10px;
+}
+#icisCampus .card01 {
+  margin-top: 40px;
+  width: 22rem;
+}
+.ciscourse .accordion .coursesName {
+  padding-right: 0;
+}
+.ciscourse .accordion .padding03 {
+  padding-right: 0;
+}
+.ciscourse .accordion .padding04 {
+  padding-right: 0;
+}
+.ciscourse .accordion .padding05 {
+  padding-right: 0;
+}
+.ciscourse .accordion .padding06 {
+  padding-right: 0;
+}
+.ciscourse .accordion .padding07 {
+  padding-right: 0;
+}
+.ciscourse .accordion .padding08 {
+  padding-right: 0;
+}
+.ciscourse .accordion .padding09 {
+  padding-right: 0;
+}
+}
